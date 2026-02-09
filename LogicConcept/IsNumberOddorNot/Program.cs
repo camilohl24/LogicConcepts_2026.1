@@ -20,7 +20,7 @@ do
         }
 
     }
-else
+    else
     {
         Console.WriteLine($"El numero {numberString} no es un numero entero");
     }
