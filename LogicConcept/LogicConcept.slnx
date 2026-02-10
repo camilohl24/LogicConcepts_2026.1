@@ -2,4 +2,7 @@
   <Folder Name="/01/">
     <Project Path="IsNumberOddorNot/IsNumberOddorNot.csproj" Id="2b82731a-864e-4400-8758-eb7feee1174f" />
   </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" Id="d463a7d8-f70a-47c9-80ca-5be6b980abcd" />
+  </Folder>
 </Solution>
