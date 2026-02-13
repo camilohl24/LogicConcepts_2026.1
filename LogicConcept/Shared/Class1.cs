@@ -4,7 +4,7 @@
     {
         public static int GetInt(string message)
         {
-            Console.Write(message);
+            Console.WriteLine(message);
             var numberString = Console.ReadLine();
             if (int.TryParse(numberString, out int numberInt))
             {
@@ -59,7 +59,7 @@
 
         public static string? GetValidOptions(string message, List<string> options)
         {
-            Console.Write(message);
+            Console.WriteLine(message);
             var answer = Console.ReadLine();
             if (options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)))
             {
